@@ -87,9 +87,9 @@
     float:left;
     display:inline-block;
     text-align: center;
-    margin:0 5px;
+    margin:0 8px;
     border-radius: 10px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgb(172, 166, 166);
 }
 
 .info1{
@@ -142,4 +142,20 @@
 
 .info{
     margin-top: 5rem;
+}
+
+.container_principale{
+    position:relative;
+}
+
+footer{
+    position:absolute;
+    bottom:-656px;
+    left:600px;
+    color:black;
+    font-weight: bold;
+}
+
+span{
+    color:red;
 }
